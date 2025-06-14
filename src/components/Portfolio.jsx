@@ -235,8 +235,7 @@ const Portfolio = () => {
           </p>
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
             Master's in Applied Computer Science @ St. Francis Xavier
-            University, Canada Building innovative solutions with modern
-            technologies
+            University, Canada
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
