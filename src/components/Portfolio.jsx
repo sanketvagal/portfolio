@@ -47,12 +47,44 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: "Budget Manager",
+      title: "React Projects Collection",
       description:
-        "Native Android budget tracking app with expense logging and recurring payments tracking",
-      tech: ["Kotlin", "Android SDK", "Room Database", "Material Design 3"],
-      period: "Nov 2024 – Present",
-      gradient: "from-purple-600 to-pink-600",
+        "Series of hands-on projects including markdown-based notes app, interactive meme generator, and Tenzies game, demonstrating proficiency in React components and state management",
+      tech: ["HTML", "React", "JavaScript", "CSS", "Vite"],
+      period: "Jul 2023 – Aug 2023",
+      gradient: "from-blue-400 to-cyan-400",
+    },
+    {
+      title: "Toxicity Prediction Challenge II",
+      description:
+        "Implemented a LightGBM-based machine learning model with 82.28% F1 score to predict chemical toxicity for drug discovery and safety assessment",
+      tech: ["Python", "scikit-learn", "RDKit", "LightGBM", "Docker"],
+      period: "Jan 2023 – Apr 2023",
+      gradient: "from-yellow-400 to-orange-400",
+    },
+    {
+      title: "E-Commerce Database System",
+      description:
+        "Developed an E-commerce application comparing SQL and NoSQL Databases through requirement gathering, schema design, and data ingestion",
+      tech: ["MySQL", "MongoDB", "MongoDB Compass"],
+      period: "Sep 2022 – Dec 2022",
+      gradient: "from-green-400 to-emerald-400",
+    },
+    {
+      title: "Travel & Entertainment Search",
+      description:
+        "Responsive web application serving as a guide to nearby places with detailed information, pictures, map navigation, reviews, and social media integration",
+      tech: [
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "Bootstrap",
+        "Google Places API",
+        "Twitter API",
+      ],
+      period: "Jan 2019 – Mar 2019",
+      gradient: "from-purple-400 to-pink-400",
     },
     {
       title: "React Fitbit Dashboard",
@@ -60,7 +92,7 @@ const Portfolio = () => {
         "Interactive dashboard visualizing activity metrics with real-time health insights using Fitbit API",
       tech: ["JavaScript", "React", "OAuth2 PKCE", "Chart.js"],
       period: "May 2024 – Aug 2024",
-      gradient: "from-blue-600 to-cyan-600",
+      gradient: "from-blue-400 to-cyan-400",
     },
     {
       title: "Custom Android ROM Development",
@@ -68,7 +100,7 @@ const Portfolio = () => {
         "Custom ROM based on AOSP to revive outdated smartphones with system optimizations",
       tech: ["AOSP", "Android SDK", "Linux", "Kernel Modifications"],
       period: "Jan 2024 – Mar 2024",
-      gradient: "from-green-600 to-teal-600",
+      gradient: "from-green-500 to-emerald-500",
     },
     {
       title: "Room Type Image Classification",
@@ -76,7 +108,7 @@ const Portfolio = () => {
         "Deep learning model achieving 84.7% accuracy on ResNet50V2 for room image classification",
       tech: ["Python", "Keras", "TensorFlow", "Transfer Learning"],
       period: "Jan 2023 – Apr 2023",
-      gradient: "from-orange-600 to-red-600",
+      gradient: "from-orange-400 to-red-400",
     },
     {
       title: "Farmatron - AI Pest Detection Drone",
@@ -84,7 +116,7 @@ const Portfolio = () => {
         "AI-powered plant disease detection with 83% precision, deployed on Raspberry Pi with web interface",
       tech: ["Python", "TensorFlow", "Django", "Raspberry Pi"],
       period: "Jul 2019 – Mar 2020",
-      gradient: "from-indigo-600 to-purple-600",
+      gradient: "from-orange-400 to-red-400",
     },
   ];
 
