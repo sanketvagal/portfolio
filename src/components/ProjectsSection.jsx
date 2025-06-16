@@ -12,7 +12,10 @@ const ProjectsSection = ({ projects }) => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group backdrop-blur-xl bg-white/5 rounded-3xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300 transform hover:scale-[1.05]"
+              className="group backdrop-blur-xl bg-white/5 rounded-3xl p-6 border border-white/10 
+                       hover:bg-white/10 active:bg-white/10 
+                       transform hover:scale-[1.05] active:scale-[1.05] 
+                       transition-all duration-300"
             >
               <div
                 className={`h-2 w-full bg-gradient-to-r ${project.gradient} rounded-full mb-6 opacity-80`}
@@ -24,7 +27,9 @@ const ProjectsSection = ({ projects }) => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white transition-colors duration-200 opacity-0 group-hover:opacity-100"
+                    className="text-gray-400 hover:text-white active:text-white 
+                             transition-colors duration-200 
+                             opacity-0 group-hover:opacity-100 group-active:opacity-100"
                     aria-label={`View ${project.title} on GitHub`}
                   >
                     <Github className="w-5 h-5" />

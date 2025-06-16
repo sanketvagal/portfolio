@@ -40,7 +40,7 @@ const Navigation = ({ activeSection }) => {
                 className={`capitalize transition-colors ${
                   activeSection === item
                     ? "text-purple-400"
-                    : "text-gray-300 hover:text-white"
+                    : "text-gray-300 hover:text-white active:text-white"
                 }`}
               >
                 {item}
@@ -52,7 +52,10 @@ const Navigation = ({ activeSection }) => {
           <div className="md:hidden">
             <button
               onClick={toggleMobileMenu}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-400 transition-colors"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-300 
+                       hover:text-white active:text-white 
+                       hover:bg-gray-700 active:bg-gray-700 
+                       focus:outline-none focus:ring-2 focus:ring-purple-400 transition-colors"
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
@@ -104,7 +107,7 @@ const Navigation = ({ activeSection }) => {
               className={`capitalize block px-3 py-2 rounded-md text-base font-medium transition-colors ${
                 activeSection === item
                   ? "text-purple-400 bg-slate-800/50"
-                  : "text-gray-300 hover:text-white hover:bg-slate-800/30"
+                  : "text-gray-300 hover:text-white active:text-white hover:bg-slate-800/30 active:bg-slate-800/30"
               }`}
             >
               {item}

@@ -11,7 +11,10 @@ const ExperienceSection = ({ experience }) => {
           {experience.map((exp, index) => (
             <div
               key={index}
-              className="backdrop-blur-xl bg-white/5 rounded-3xl p-8 border border-white/10 hover:bg-white/10 transition-all duration-300 transform hover:scale-[1.02]"
+              className="backdrop-blur-xl bg-white/5 rounded-3xl p-8 border border-white/10 
+                       hover:bg-white/10 active:bg-white/10 
+                       transform hover:scale-[1.02] active:scale-[1.02] 
+                       transition-all duration-300"
             >
               <div className="flex items-start justify-between mb-4">
                 <div>

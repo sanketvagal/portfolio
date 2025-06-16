@@ -11,7 +11,9 @@ const SkillsSection = ({ skills }) => {
           {Object.entries(skills).map(([category, items]) => (
             <div
               key={category}
-              className="backdrop-blur-xl bg-white/5 rounded-3xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300"
+              className="backdrop-blur-xl bg-white/5 rounded-3xl p-6 border border-white/10 
+                       hover:bg-white/10 active:bg-white/10 
+                       transition-all duration-300"
             >
               <h3 className="text-xl font-semibold mb-4 text-purple-400">
                 {category}
@@ -20,7 +22,9 @@ const SkillsSection = ({ skills }) => {
                 {items.map((skill) => (
                   <span
                     key={skill}
-                    className="px-3 py-1 bg-white/10 rounded-full text-sm border border-white/20 hover:bg-white/20 transition-colors"
+                    className="px-3 py-1 bg-white/10 rounded-full text-sm border border-white/20 
+                             hover:bg-white/20 active:bg-white/20 
+                             transition-colors"
                   >
                     {skill}
                   </span>

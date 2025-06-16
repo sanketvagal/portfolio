@@ -26,13 +26,17 @@ const HeroSection = () => {
         <div className="flex flex-wrap justify-center gap-4">
           <a
             href="#projects"
-            className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full font-semibold hover:shadow-2xl hover:shadow-purple-500/50 transform hover:scale-105 transition-all duration-300"
+            className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full font-semibold transform transition-all duration-300 
+                     hover:shadow-2xl hover:shadow-purple-500/50 hover:scale-105 
+                     active:shadow-2xl active:shadow-purple-500/50 active:scale-105"
           >
             View Projects
           </a>
           <a
             href="#contact"
-            className="px-8 py-3 backdrop-blur-xl bg-white/10 border border-white/20 rounded-full font-semibold hover:bg-white/20 transform hover:scale-105 transition-all duration-300"
+            className="px-8 py-3 backdrop-blur-xl bg-white/10 border border-white/20 rounded-full font-semibold transform transition-all duration-300
+                     hover:bg-white/20 hover:scale-105 
+                     active:bg-white/20 active:scale-105"
           >
             Get In Touch
           </a>

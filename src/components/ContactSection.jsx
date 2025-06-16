@@ -14,14 +14,18 @@ const ContactSection = () => {
         <div className="flex flex-wrap justify-center gap-4">
           <a
             href="mailto:sanketdvagal@gmail.com"
-            className="flex items-center gap-2 px-6 py-3 backdrop-blur-xl bg-white/10 border border-white/20 rounded-full hover:bg-white/20 transition-all duration-300"
+            className="flex items-center gap-2 px-6 py-3 backdrop-blur-xl bg-white/10 border border-white/20 rounded-full 
+                     hover:bg-white/20 active:bg-white/20 
+                     transition-all duration-300"
           >
             <Mail className="w-5 h-5" />
             Email
           </a>
           <a
             href="tel:+19023187530"
-            className="flex items-center gap-2 px-6 py-3 backdrop-blur-xl bg-white/10 border border-white/20 rounded-full hover:bg-white/20 transition-all duration-300"
+            className="flex items-center gap-2 px-6 py-3 backdrop-blur-xl bg-white/10 border border-white/20 rounded-full 
+                     hover:bg-white/20 active:bg-white/20 
+                     transition-all duration-300"
           >
             <Phone className="w-5 h-5" />
             Phone
@@ -30,7 +34,9 @@ const ContactSection = () => {
             href="https://linkedin.com/in/sanketvagal"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-6 py-3 backdrop-blur-xl bg-white/10 border border-white/20 rounded-full hover:bg-white/20 transition-all duration-300"
+            className="flex items-center gap-2 px-6 py-3 backdrop-blur-xl bg-white/10 border border-white/20 rounded-full 
+                     hover:bg-white/20 active:bg-white/20 
+                     transition-all duration-300"
           >
             <Linkedin className="w-5 h-5" />
             LinkedIn
@@ -39,7 +45,9 @@ const ContactSection = () => {
             href="https://github.com/sanketvagal"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-6 py-3 backdrop-blur-xl bg-white/10 border border-white/20 rounded-full hover:bg-white/20 transition-all duration-300"
+            className="flex items-center gap-2 px-6 py-3 backdrop-blur-xl bg-white/10 border border-white/20 rounded-full 
+                     hover:bg-white/20 active:bg-white/20 
+                     transition-all duration-300"
           >
             <Github className="w-5 h-5" />
             GitHub

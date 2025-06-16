@@ -31,6 +31,20 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Mobile touch enhancements */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Improve touch targets for mobile */
+@media (max-width: 768px) {
+  button,
+  a {
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+}
+
 /* Custom animations for the blob effect */
 @keyframes blob {
   0% {

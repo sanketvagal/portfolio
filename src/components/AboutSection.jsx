@@ -9,7 +9,11 @@ const AboutSection = () => {
           About Me
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="backdrop-blur-xl bg-white/5 rounded-3xl p-8 border border-white/10 hover:bg-white/10 transition-all duration-300">
+          <div
+            className="backdrop-blur-xl bg-white/5 rounded-3xl p-8 border border-white/10 
+                         hover:bg-white/10 active:bg-white/10 
+                         transition-all duration-300"
+          >
             <BookOpen className="w-12 h-12 text-purple-400 mb-4" />
             <h3 className="text-2xl font-semibold mb-4">Education</h3>
             <div className="space-y-2">
@@ -23,7 +27,11 @@ const AboutSection = () => {
               <p className="text-sm text-gray-500">Sep 2022 – May 2024</p>
             </div>
           </div>
-          <div className="backdrop-blur-xl bg-white/5 rounded-3xl p-8 border border-white/10 hover:bg-white/10 transition-all duration-300">
+          <div
+            className="backdrop-blur-xl bg-white/5 rounded-3xl p-8 border border-white/10 
+                         hover:bg-white/10 active:bg-white/10 
+                         transition-all duration-300"
+          >
             <Award className="w-12 h-12 text-pink-400 mb-4" />
             <h3 className="text-2xl font-semibold mb-4">Achievements</h3>
             <ul className="space-y-2 text-gray-300">
