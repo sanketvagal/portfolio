@@ -17,7 +17,7 @@ const HeroSection = () => {
           </h1>
         </div>
         <p className="text-xl sm:text-2xl text-gray-300 mb-8">
-          Full Stack Developer & Machine Learning Engineer
+          Full Stack Developer | Data Analyst | Machine Learning Engineer
         </p>
         <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
           Master's in Applied Computer Science @ St. Francis Xavier University,

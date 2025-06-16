@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "Portfolio Website",
+    description:
+      "Modern, responsive portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and interactive components",
+    tech: ["Next.js", "React", "Tailwind CSS", "JavaScript"],
+    period: "May 2025 – Present",
+    gradient: "from-indigo-400 to-purple-400",
+    github: "https://github.com/sanketvagal/portfolio",
+  },
+  {
     title: "React Projects Collection",
     description:
       "Series of hands-on projects including markdown-based notes app, interactive meme generator, and Tenzies game, demonstrating proficiency in React components and state management",
@@ -14,6 +23,8 @@ export const projects = [
     tech: ["Python", "scikit-learn", "RDKit", "LightGBM", "Docker"],
     period: "Jan 2023 – Apr 2023",
     gradient: "from-yellow-400 to-orange-400",
+    github:
+      "https://github.com/sanketvagal/the-toxicity-prediction-challenge-ii",
   },
   {
     title: "E-Commerce Database System",
@@ -38,6 +49,7 @@ export const projects = [
     ],
     period: "Jan 2019 – Mar 2019",
     gradient: "from-purple-400 to-pink-400",
+    github: "https://github.com/sanketvagal/Travel-and-Entertainment-Search",
   },
   {
     title: "React Fitbit Dashboard",
@@ -46,6 +58,7 @@ export const projects = [
     tech: ["JavaScript", "React", "OAuth2 PKCE", "Chart.js"],
     period: "May 2024 – Aug 2024",
     gradient: "from-blue-400 to-cyan-400",
+    github: "https://github.com/sanketvagal/react-fitbit-dashboard",
   },
   {
     title: "Custom Android ROM Development",
@@ -62,6 +75,7 @@ export const projects = [
     tech: ["Python", "Keras", "TensorFlow", "Transfer Learning"],
     period: "Jan 2023 – Apr 2023",
     gradient: "from-orange-400 to-red-400",
+    github: "https://github.com/sanketvagal/Room-type-image-classification",
   },
   {
     title: "Farmatron - AI Pest Detection Drone",
@@ -70,6 +84,7 @@ export const projects = [
     tech: ["Python", "TensorFlow", "Django", "Raspberry Pi"],
     period: "Jul 2019 – Mar 2020",
     gradient: "from-orange-400 to-red-400",
+    github: "https://github.com/sanketvagal/Farmatron",
   },
 ];
 
