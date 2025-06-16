@@ -34,7 +34,7 @@ const ProjectsSection = ({ projects }) => {
               <p className="text-gray-300 mb-4 text-sm">
                 {project.description}
               </p>
-              <p className="text-xs text-gray-500 mb-4">{project.period}</p>
+              <p className="text-xs text-gray-400 mb-4">{project.period}</p>
               <div className="flex flex-wrap gap-2">
                 {project.tech.map((tech) => (
                   <span
