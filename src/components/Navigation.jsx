@@ -26,7 +26,7 @@ const Navigation = ({ activeSection }) => {
         <div className="flex justify-between items-center h-16">
           <a
             href="#home"
-            className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent cursor-pointer"
+            className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent cursor-pointer p-2 flex items-center"
           >
             SV
           </a>
