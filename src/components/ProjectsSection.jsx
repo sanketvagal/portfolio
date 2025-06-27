@@ -29,7 +29,7 @@ const ProjectsSection = ({ projects }) => {
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white active:text-white 
                              transition-colors duration-200 
-                             opacity-0 group-hover:opacity-100 group-active:opacity-100"
+                             md:opacity-0 group-hover:opacity-100 group-active:opacity-100"
                     aria-label={`View ${project.title} on GitHub`}
                   >
                     <Github className="w-5 h-5" />
