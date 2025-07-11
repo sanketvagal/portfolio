@@ -236,10 +236,6 @@ The portfolio includes Vercel Analytics integration for:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 🙏 Acknowledgments
 
 - Built with ❤️ using Next.js and React
